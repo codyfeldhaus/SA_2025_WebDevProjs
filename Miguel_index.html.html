@@ -1,0 +1,110 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>Delish Dine in</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<style>
+body {font-family: "miguel", serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 3px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-padding w3-card" style="letter-spacing:3px;">
+    <a href="#home" class="w3-bar-item w3-button">Delish Dine</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
+      <a href="#dishes" class="w3-bar-item w3-button">Dishes</a>
+      <a href="#reach" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="https://t4.ftcdn.net/jpg/02/35/13/93/360_F_235139347_p5zIyK0h6APlXspCIXsTW5GpmJhMnHcT.jpg" alt="Delish Dining" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity w3-black">
+    <h1 class="w3-xxlarge">Delicious Moments</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- Services Section -->
+  <div class="w3-row w3-padding-64" id="services">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="https://www.w3schools.com/w3images/coffee.jpg" class="w3-round w3-image w3-opacity-min" alt="Dining Setup" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Who We Are</h1><br>
+      <h5 class="w3-center">Serving Delight Since 1995</h5>
+      <p class="w3-large">A very delsish place to dine in was created by the man himslef Miguel Hernandez, who had a vision of bringing great amzazing dishesto eat, along with very flavorful taste of meals to eat from a varioty choice. From intimate dinners to grand celebrations, My mission is to provide food that’s both memorable and mouth-watering and can fill you up. We focus on <span class="w3-tag w3-light-grey">locally-sourced</span> produce and handcrafted menus.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Each dish is designed with care, balancing tradition and innovation. We believe that every meal tells a story — and we're here to make yours deliciously unforgettable.</p>
+    </div>
+  </div>
+  
+  <hr>
+
+  <!-- Dishes Section -->
+  <div class="w3-row w3-padding-64" id="dishes">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Popular Dishes</h1><br>
+
+      <h4>Fresh Fruit Platter</h4>
+      <p class="w3-text-BLUE">A colorful selection of fresh, seasonal fruits. $10.00</p><br>
+
+      <h4>Avocado Toast Deluxe</h4>
+      <p class="w3-text-BLUE">Sourdough bread topped with smashed avocado, feta, and chili flakes. $15.00</p><br>
+
+      <h4>Spinach & Cheese Quiche</h4>
+      <p class="w3-text-BLUE">A rich blend of spinach, eggs, and cheddar cheese in a flaky crust. $9.50</p><br>
+
+      <h4>Herbed Chicken Wrap</h4>
+      <p class="w3-text-BLUE">Tender chicken breast wrapped with greens and tangy sauce. $18.00</p><br>
+
+      <h4>Classic Pancakes</h4>
+      <p class="w3-text-bLUE">Stacked high and served with maple syrup and whipped cream. $8.50</p>    
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" class="w3-round w3-image w3-opacity-min" alt="Dishes" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="reach">
+    <h1>Contact Us</h1><br>
+    <p>Planning an event? We're here to help you serve unforgettable food that suits any occasion. Feel free to reach out with questions or requests!</p>
+    <p class="w3-text-blue-grey w3-large"><b>Delish Dine, 88 Flavor Street,
+    Rohnert Park , CA</b></p>
+    <p>Call us at (707) 921-6713 or email <a href="mailto:hello@delishdine.com">Encizohernandez28@ssuprecollege.org</a>. Or, send us a quick message below:</p>
+    <form action="/submit_form.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Your Name" required name="Miguel"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="Number of Guests" required name="Guests"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and Time" required name="datetime"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message or Special Requests" required name="Message"></p>
+      <p><button class="w3-button w3-black w3-section" type="submit">SUBMIT</button></p>
+    </form>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-32">
+  <p>Built with 💚 using <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">W3.CSS</a></p>
+</footer>
+
+</body>
+</html>
+
